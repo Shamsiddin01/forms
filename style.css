@@ -1,0 +1,91 @@
+*,
+*::before
+*::after
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("fon/93-930038_gradient-wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-family:'Poppins';
+}
+.container{
+    width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.flax{
+    display: flex;
+}
+.row{
+    margin-bottom: 20px;
+
+}
+.opros_disc{
+    margin-bottom: 150px;
+    margin-top: 150px;
+    align-items: center;
+    justify-content: center;
+}
+input{
+
+    width: 405px;
+    line-height: 26px;
+    font-size: 14px;
+    padding: 12px 0 12px 32px;
+    border-radius: 5px;
+    margin-left: 40px;
+}
+input:hover{
+    box-shadow: 3px 3px  20px rgb(206, 204, 204);
+}
+.title{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 55px;
+
+}
+.txt{
+    width: 525px;
+}
+span{color: red;}
+.quest{
+    border-radius: 10px;
+    justify-content: center;
+    width: 530px;
+    height: 474px;
+    background-color: #fff;
+}
+.coment{
+    text-align: center;
+    color: rgb(145, 134, 134);
+    font-size: 11px;
+    line-height: 26px;
+    
+}
+[type="sabmit"]{
+
+    color: #fff;
+    background-color: #38CC8B;
+    font-size: 15px;
+    line-height: 26px;
+    padding: 12px 135px;
+    border-radius: 8px;
+    margin-left: 40px;
+}
+.link{
+    background-color: #5E54A4;
+    color: #fff;
+    font-size: 15px;
+    line-height: 26px;
+    padding: 17px 110px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+.pad{
+    padding-top: 40px;
+}
